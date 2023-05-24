@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Space-Tourism-Website-Scrimba">
+  <meta name="author" content="Jelena Randjelovic">
+  <meta name="keywords" content="Space, Tourism, Scrimba, Mars, Pilot, Titan, Europa, Moon">
+  <title>Space Tourism</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <!--Google Icons-->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <!--Css-->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!--Javascript for tabs-->
+  <script src="js/tabs.js" defer></script>
+</head>
+<body class="home">
+  <!--tab link-->
+  <a href="#main" class="skip-to-content sr-only">Skip to content</a>
+
+  <!-----------------------
+  ---------HEADER----------
+  -------------------------> 
+  <header class="primary-header flex">
+    <div>
+      <img src="./assets/shared/logo.svg" alt="space tourism logo" class="logo">
+    </div>
+    <button type="button" class="mobile-nav-toggle aria-controls"
+    aria-expanded="false">
+      <span class="sr-only">Menu</span>
+    </button>
+    <!--NAVIGATION MENU-->
+    <nav>
+      <ul id="primary-navigation" data-visible="false"class="primary-navigation underline-indicators flex">
+          <li class="active"><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="index.html"><span area-hidden="true">00</span>Home</a>
+          <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="destination.html"><span area-hidden="true">01</span>Destination</a>
+          <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="crew.html"><span area-hidden="true">02</span>Crew</a>
+          <li><a class="ff-sans-cond uppercase text-white letter-spacing-2" href="technology.html"><span area-hidden="true">03</span>Technology</a>
+      </ul>
+    </nav> 
+  </header>
+  <!-----------------------
+  -------MAIN CONTENT------
+  ------------------------->
+  <main id="main" class="grid-container grid-container--home">
+    <div>
+      <h1 class="text-accent fs-500 ff-sans-cond uppercase letter-spacing-1">So, you want to travel to
+      <span class="d-block fs-900 ff-serif text-white">Space</span></h1>
+      
+      <p>Let's face it; if you want to go to space, you might as well genuinely go to 
+      outer space and not hover kind of on the edge of it. Well sit back, and relax 
+      because we'll give you a truly out of this world experience! </p>
+    </div>
+    <div>
+      <a href="destination.html" class="large-button uppercase ff-serif text-dark bg-white">Explore</a>
+    </div>
+
+  </main><!--main end-->
+
+  <!--JavaScript File-->
+  <script src="js/main.js"></script>
+</body>
+</html>
